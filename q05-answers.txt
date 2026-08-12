@@ -1,0 +1,13 @@
+1. When both Employee and Student inherited from Person,
+   it created two copies of everything present in the Person class.
+   Thus, 2 objects were created in the original inheritance structure.
+
+2. The diamond inheritance problem occurs when the compiler throws
+   an ambiguity error because it doesn't know from which class it is supposed
+   to inherit the grandparent class's members. It specifically occurs when
+   hierarchial and multiple inheritance coexist in the program.
+
+3. The 'virtual' keyword ensures that the members of the parent class are shared
+   and thus only a single copy is created.
+
+4. Adding the 'virtual' keyword is required in both Student and Employee class.
