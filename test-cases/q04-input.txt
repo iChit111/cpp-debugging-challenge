@@ -27,7 +27,7 @@ Meeting 3:
 
 Expected Output:
 Total duration: 4 hours 15 minutes
-Meeting 3 is longer
+Combined duration is longer
 
 
 -------------------------
@@ -63,4 +63,4 @@ Meeting 3:
 
 Expected Output:
 Total duration: 5 hours 15 minutes
-Meeting 3 is longer
+Combined duration is longer
