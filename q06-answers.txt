@@ -1,0 +1,15 @@
+1. Runtime polymorphism is achieved by using pure virtual functions.
+   The calculate() function is overriden by the two child classes.
+
+2. The base class pointer allows us to store objects of both StudentService
+   and EmployeeService in a single array of Services.
+
+3. If the base class (Service) does not have a virtual destructor,
+   only the base class destructor will get executed which will cause
+   memory leak
+
+4. The purpose of the template function is to increase the code reusability.
+   This function will work with any data type that supports the > operator
+
+5. In the validate() function, the code throws invalid_argument, but 
+   the catch block in main() catches a runtime_error.
