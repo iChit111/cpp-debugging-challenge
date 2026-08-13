@@ -22,6 +22,7 @@ public:
             throw invalid_argument(
                 "Amount cannot be negative");
     }
+    virtual ~Service() {}
 };
 
 class StudentService : public Service
@@ -94,7 +95,7 @@ int main()
                     employeeAmount)
              << endl;
     }
-    catch (invalid_argument e)
+    catch (const invalid_argument& e)
     {
         cout << "Runtime error: "
              << e.what() << endl;
